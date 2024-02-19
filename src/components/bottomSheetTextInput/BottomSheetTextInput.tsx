@@ -1,7 +1,7 @@
 import React, { memo, useCallback, forwardRef, useEffect } from 'react';
-import type {
-  TextInputFocusEventData,
-  NativeSyntheticEvent,
+import {
+  type TextInputFocusEventData,
+  type NativeSyntheticEvent,
   TextInput
 } from 'react-native';
 import { useBottomSheetInternal } from '../../hooks';
