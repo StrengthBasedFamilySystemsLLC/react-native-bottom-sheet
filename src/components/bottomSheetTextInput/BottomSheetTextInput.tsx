@@ -2,8 +2,8 @@ import React, { memo, useCallback, forwardRef, useEffect } from 'react';
 import type {
   TextInputFocusEventData,
   NativeSyntheticEvent,
+  TextInput
 } from 'react-native';
-import { TextInput } from 'react-native-gesture-handler';
 import { useBottomSheetInternal } from '../../hooks';
 import type { BottomSheetTextInputProps } from './types';
 
